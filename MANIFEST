@@ -1,0 +1,7 @@
+Changes
+lib/Pod/PseudoPod/CrossReference.pm
+Makefile.PL
+MANIFEST
+README
+t/main.t
+META.yml                                Module meta-data (added by MakeMaker)
