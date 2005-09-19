@@ -5,7 +5,7 @@ use base qw( Pod::PseudoPod );
 use Carp;
 
 use vars qw( $VERSION );
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub new {
     my $self  = shift;
@@ -174,7 +174,7 @@ Typically the Z handler is used to record labels in a data structure. What
 information the Z handler has to work with is setup by all of the other block 
 handlers.
 
-=head METHODS
+=head1 METHODS
 
 This is a subclass of L<Pod::PseudoPod> and inherits all its methods. This 
 module ads one important method that makes cross-referencing possible.
@@ -202,7 +202,7 @@ rather pointless.
 
 =head1 HANDLERS
 
-The following handlers are recognized.
+The following handlers are recognized by the processor.
 
 =over
 
